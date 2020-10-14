@@ -1,0 +1,70 @@
+body {
+    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.77), rgba(82, 82, 82, 0.735));
+    background: -moz-linear-gradient(45deg, rgba(0, 0, 0, 0.77), rgba(82, 82, 82, 0.735));
+    background: -o-linear-gradient(45deg, rgba(0, 0, 0, 0.77), rgba(82, 82, 82, 0.735));
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.77), rgba(82, 82, 82, 0.735));
+
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 68vh;
+}
+
+.cuerpo {
+    margin-top: 15%;
+    overflow: hidden;
+}
+
+.titulo {
+    margin: 0% 35% 0% 35%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.link {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.pageSite {
+    width: 40%;
+    display: block;
+    position: relative;
+    z-index: 1;
+    border-radius: 40px 5px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.animation {
+    position: absolute;
+    z-index: -1;
+    width: 300%;
+    height: 100%;
+    background:  rgba(18, 67, 124, 0.87);
+    background: -webkit-linear-gradient(right, rgba(18, 68, 124, 0.77), rgba(60, 21, 124, 0.822));
+    background: -moz-linear-gradient(right,rgba(18, 68, 124, 0.77), rgba(61, 21, 124, 0.822));
+    background: -o-linear-gradient(right,rgba(18, 68, 124, 0.77), rgba(61, 21, 124, 0.822));
+    background: linear-gradient(right,rgba(18, 68, 124, 0.77), rgba(61, 21, 124, 0.822));
+    top: 0;
+    left: -100%;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.pageSite:hover .animation {
+    left: 0;
+}
